@@ -194,9 +194,10 @@ aplicacao.post('/jogadaJogadorDois', function(req,res){
 
 
 
-/* servidor web fica na escuta da solicitação do cliente (jogadorUm q possui navegador) na  porta 3000 */
-aplicacao.listen(3000, function(req, res) {
-    console.log("##########")
-    console.log("Servidos aberto")
-    console.log("##########")
-})
+//Use PORT provided in environment or default to 3000
+const port = process.env.PORT || 3000;
+
+// Listen on `port` and 0.0.0.0
+aplicacao.listen(port, "0.0.0.0", function () {
+  console.log("SERVER OPEN")
+});
