@@ -198,6 +198,6 @@ aplicacao.post('/jogadaJogadorDois', function(req,res){
 // node web server
 const port = process.env.PORT || 3000;
 
-app.listen(port, () => {
+aplicacao.listen(port, () => {
   console.log(`App listening on port: ${port}`);
 });
