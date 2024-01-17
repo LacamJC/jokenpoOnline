@@ -16,9 +16,12 @@ Infelizmente, para testar o projeto completamente, é necessário que ele esteja
 
 ## Screenshots
 
-![Tela Inicial](screenshots/captura.png)
+## Screenshots
 
-![Tela de escolha do jogador um](screenshots/captura2.png)
+<img src="screenshots/captura.png" alt="Tela Inicial" width="400px">
+
+<img src="screenshots/captura2.png" alt="Tela de escolha do jogador um" width="400px">
+
 
 ## Como Testar Localmente
 
