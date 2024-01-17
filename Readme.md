@@ -16,9 +16,9 @@ Infelizmente, para testar o projeto completamente, é necessário que ele esteja
 
 ## Screenshots
 
-![Tela Inicial](screenshots/Captura de tela de 2024-01-16 21-05-27.png)
+![Tela Inicial](screenshots/captura.png)
 
-![Tela de escolha do jogador um](screenshots/Captura de tela de 2024-01-16 21-05-52.png)
+![Tela de escolha do jogador um](screenshots/captura2.png)
 
 ## Como Testar Localmente
 
