@@ -16,7 +16,6 @@ Infelizmente, para testar o projeto completamente, é necessário que ele esteja
 
 ## Screenshots
 
-## Screenshots
 
 <img src="screenshots/captura.png" alt="Tela Inicial" width="400px">
 
