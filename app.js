@@ -53,13 +53,18 @@ const resultado =
     jogadorDoisJogada : ""
 }
 
+if(resultado.jogadorUm === true && resultado.jogadorDois === true)
+{
+    res.render('../views/resultado.ejs', {status_jogadorUm : status_jogadorUm, status_jogadorDois : status_jogadorDois, jogadas : jogadas})
+}
+
 function verificar(req, res)
 {
     if(resultado.jogadorUm === true && resultado.jogadorDois === true)
         {
             var jogadorUm = resultado.jogadorUmJogada.toUpperCase();
             var jogadorDois = resultado.jogadorDoisJogada.toUpperCase();
-
+            
             var status_jogadorUm;
             var status_jogadorDois;
 
